@@ -1,0 +1,168 @@
+@media screen and (max-width: 400px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header.navbar-container {
+    padding-inline: 1.5rem;
+  }
+
+  header.navbar-container .btn-mbl-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-list {
+    background-color: #0a192f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+    z-index: 999;
+    overflow-x: hidden;
+  }
+
+  .nav-open .nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 2.5rem 1.5rem;
+  }
+
+  main .content .intro .intro-title {
+    font-size: 2.5rem;
+  }
+
+  main .content .intro .intro-role {
+    font-size: 2.5rem;
+  }
+
+  main .content .intro a {
+    padding: 1.2rem;
+  }
+
+  .sticky .intro {
+    margin-top: 0px;
+  }
+
+  main .content .about {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 100px 0 50px 0;
+  }
+
+  main .content .about .about-text .about-title {
+    font-size: 1.5rem;
+  }
+
+  main .content .about .about-text .about-description {
+    text-align: start;
+  }
+
+  main .content .about .about-text a {
+    padding: 1.2rem;
+  }
+
+  main .content .service {
+    padding: 50px 0 50px 0;
+  }
+
+  main .content .service .myservice-title {
+    font-size: 1.5rem;
+  }
+
+  main .content .service .service-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-block-end: 30px;
+  }
+
+  main .content .service .service-container .design-img {
+    order: -1;
+  }
+
+  main .content .service .service-container .service-img {
+    width: 100%;
+  }
+
+  main .content .service .service-container .service-text {
+    width: 100%;
+  }
+
+  main .content .service .service-container .service-text .service-title {
+    font-size: 1.2rem;
+  }
+
+  main .content .service .service-container .service-text .service-description {
+    text-align: start;
+  }
+
+  main .content .skill {
+    padding: 0 0 50px 0;
+  }
+
+  main .content .skill .myskill-title {
+    font-size: 1.5rem;
+  }
+
+  main .content .skill .skill-container {
+    margin-block-start: 50px;
+  }
+
+  main .content .skill .skill-container .skill-list ion-icon {
+    font-size: 2rem;
+    padding: 14px;
+  }
+
+  main .content .skill .skill-container .skill-list .skill-title {
+    font-size: 0.85rem;
+  }
+
+  main .content .contact {
+    padding: 50px 0 50px 0;
+  }
+
+  main .content .contact .contact-title {
+    font-size: 2rem;
+  }
+
+  main .content .contact a {
+    padding: 1.2rem;
+  }
+
+  main aside {
+    padding: 50px 0 50px 0;
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile &mdash; Mario Christofell</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="img/mariologo.png" alt="Logo Mario" />
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li>
+            <a href="#home" class="nav-link"><span>01.</span> Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link"><span>02.</span> About</a>
+          </li>
+          <li>
+            <a href="#service" class="nav-link"><span>03.</span> Service</a>
+          </li>
+          <li>
+            <a href="#skill" class="nav-link"><span>04.</span> Skill</a>
+          </li>
+          <li>
+            <a href="#contact" class="contact nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mbl-nav">
+        <ion-icon
+          name="menu-outline"
+          alt="Hamburger icon for mobile navigation"
+          class="icon-mobile-nav"
+          id="menu-hamburger"
+        ></ion-icon>
+        <ion-icon
+          name="close-outline"
+          alt="Close icon for mobile navigation"
+          class="icon-mobile-nav"
+          id="close"
+        ></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <div class="content">
+        <article class="intro" id="home">
+          <p class="intro-greet">Hi!👋 my name is</p>
+          <h1 class="intro-title">Mario Christofell.</h1>
+          <p class="intro-role">Junior Frontend Developer</p>
+          <p class="intro-description">
+            I'm a Junior Frontend Developer based in Indonesia, i love to create
+            beautiful and interactive websites with great user interface &
+            experiences. Currently, I’m focused on learning Javascript and
+            others frontend technologies.
+          </p>
+          <a href="#about">Get to know me! &DownArrow;</a>
+        </article>
+
+        <article id="about" class="about">
+          <div class="about-img">
+            <img src="img/mario.jpg" alt="Mario profile picture" />
+          </div>
+          <div class="about-text">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-description">
+              As a fresh graduate in informatics engineering, I have a keen
+              interest in web development, particularly front-end development
+              role and web design. I have a basic understanding of HTML, CSS and
+              am currently focused on learning Javascript to enhance my
+              abilities in front-end development and exploring new front-end
+              technologies. My goal is to apply my skills, knowledge and
+              enthusiasm to a front-end developer role where I can create a
+              responsive, visually appealing and user-friendly website. I am
+              committed to staying up to date with the latest industry trends
+              and technologies and continuously learning to improving my
+              skillset in web development and web design.
+            </p>
+            <a href="#contact">Let's Connect!</a>
+          </div>
+        </article>
+
+        <article id="service" class="service">
+          <h2 class="myservice-title">My Service</h2>
+          <div class="service-container">
+            <div class="service-img">
+              <img
+                src="img/Hand coding-pana.svg"
+                alt="Illustration someone coding on laptop"
+              />
+            </div>
+            <div class="service-text">
+              <h3 class="service-title">Web Development</h3>
+              <p class="service-description">
+                My web development service is designed to provide you with a
+                comprehensive solution for all your website needs. We strive to
+                deliver high-quality services that meet your expectations and
+                help you achieve your online goals. Contact us today to learn
+                more about how we can help you create a professional and
+                effective website. I can evaluate your current website and
+                provide recommendations to improve its functionality, design,
+                and user experience. Whether you need a complete overhaul or
+                just a few minor tweaks
+              </p>
+            </div>
+          </div>
+          <div class="service-container">
+            <div class="service-text">
+              <h3 class="service-title">Web Design</h3>
+              <p class="service-description">
+                I can create custom websites that are unique and reflect your
+                brand's identity. We can work with you to design a website that
+                not only looks great but is also easy to navigate and use. I'm
+                proficient in various programming languages and frameworks such
+                as HTML, CSS, JavaScript, PHP, React, and Angular, allowing us
+                to create websites that are responsive, scalable, and
+                interactive.
+              </p>
+            </div>
+            <div class="service-img design-img">
+              <img
+                src="img/Design tools-pana.svg"
+                alt="Illustration someone coding on laptop"
+              />
+            </div>
+          </div>
+          <div class="service-container">
+            <div class="service-img">
+              <img
+                src="img/Domain names-pana.svg"
+                alt="Illustration someone coding on laptop"
+              />
+            </div>
+            <div class="service-text">
+              <h3 class="service-title">WordPress</h3>
+              <p class="service-description">
+                Having knowledge and experience for WordPress, with technical
+                skills to configure and customize WordPress plugins and themes,
+                troubleshoot any issues that arise, and optimize the website for
+                speed and performance. I also can to migrate the website to a
+                new hosting platform, install security plugins, and provide
+                ongoing maintenance and technical support. My goal is to help
+                businesses and individuals create and maintain a strong online
+                presence.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article id="skill" class="skill">
+          <h2 class="myskill-title">My Skill</h2>
+          <div class="skill-container">
+            <div class="skill-list">
+              <ion-icon name="logo-html5"></ion-icon>
+              <h3 class="skill-title">HTML5</h3>
+            </div>
+            <div class="skill-list">
+              <ion-icon name="logo-css3"></ion-icon>
+              <h3 class="skill-title">CSS3</h3>
+            </div>
+            <div class="skill-list">
+              <ion-icon name="logo-javascript"></ion-icon>
+              <h3 class="skill-title">Javascript</h3>
+            </div>
+            <div class="skill-list">
+              <ion-icon name="logo-react"></ion-icon>
+              <h3 class="skill-title">React</h3>
+            </div>
+          </div>
+        </article>
+
+        <article id="contact" class="contact">
+          <p class="contact-greet">Have a project in mind?</p>
+          <h2 class="contact-title">Let's Connect</h2>
+          <p class="contact-description">
+            Do you have a project in mind? or just want to say hi! feel free to
+            contact me, my email inbox is always open. I'll try my best to reply
+            your message!
+          </p>
+          <a href="mailto:mariochristofelltbg@gmail.com" target="_blank"
+            >Contact Me</a
+          >
+        </article>
+      </div>
+
+      <aside id="bio">
+        <div class="bio">
+          <article class="profile card">
+            <header>
+              <h2>Bio</h2>
+              <h3>Mario Christofell</h3>
+              <figure>
+                <img src="img/mario.jpg" />
+                <figcaption>Junior Frontend Dev</figcaption>
+              </figure>
+            </header>
+            <section>
+              <p>Full Name: <span>Mario Christofell L.Tobing</span></p>
+              <p>Birth Date: <span>11 March 1998</span></p>
+              <p>Age: <span>25</span></p>
+              <p>Zodiac: <span>Pisces</span></p>
+            </section>
+          </article>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Made with 🤍 by Mario Christofell</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
